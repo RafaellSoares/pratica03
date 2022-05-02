@@ -9,3 +9,15 @@ function abrirJanela(){
 function fecharJanela(){
     NovaJanela.close();
 }
+
+function nomeNav(){
+    alert(navigator.userAgent)
+}
+
+function Propriedades(){
+    //alert("Total width/height :" + screen.width + "x" + screen.height)
+    //alert("Disponivel width/height :" + screen.availWidth + "x" + screen.availHeight)
+    //alert("Profunidade de cores :" + screen.colorDepth)
+    //alert("pixel cores :" + screen.pixelDepth)
+    history.back()
+}
